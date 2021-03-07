@@ -1,4 +1,5 @@
 import { cards } from './cards.js';
+import { locales } from './locales.js';
 
 const pantomimeCards = cards.filter(({ category }) => category == 'pantomime');
 const describeCards = cards.filter(({ category }) => category == 'describe');
@@ -49,7 +50,7 @@ const lastCategoryValueElement = document.querySelector('.last-category > .stati
 		lastCategoryValueElement.innerHTML = cardCategoryElement.innerHTML;
 		lastTopicValueElement.innerHTML = cardTopicElement.innerHTML;
 
-		cardCategoryElement.innerHTML = category;
+		cardCategoryElement.innerHTML = locales[category];
 		cardTopicElement.innerHTML = newCard.topic;
 		cardPointElement.innerHTML = newCard.point;
 
