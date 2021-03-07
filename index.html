@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="./src/font-awesome/css/fontawesome.min.css">
 		<link rel="stylesheet" href="./src/font-awesome/css/solid.min.css">
 		<link rel="stylesheet" href="./src/main.css">
-		<script src="./src/main.js" async defer></script>
+		<script type="module" src="./src/main.js" async defer></script>
 		<link rel="shortcut icon" type="image/x-icon" href="./src/favicon.ico">
 	</head>
 	<body>
@@ -23,37 +23,49 @@
 					Pick the proper category and then read the cards. If someone else already
 					picked the card that your browser picked, pick an other one!
 					A card only appears once per session. If you want to reset your current session, just reload your browser!
+					If you don't know what does the topic of your current card means, you can always click on the button bellow your card details for some help!
 				</p>
 			</div>
 			<div class="card-content">
-				<div class="title-container">
-					<div class="title">Current card</div>
-				</div>
-				<div class="card-details">
-					<div class="type">-</div>
-					<div class="subject">-</div>
-					<button class="btn hidden" type="button" id="google-subject">What is this? O.o</button>
+				<h3>Current card</h3>
+				<div class="current-card-details">
+					<div class="title-container">
+						<div class="label-category">Category:</div>
+						<div class="label-topic">Topic:</div>
+						<div class="label-point">Point:</div>
+						<div class="button-row hidden">Help button</div>
+					</div>
+					<div class="card-details">
+						<div class="card-category">-</div>
+						<div class="card-topic">-</div>
+						<div class="card-point">-</div>
+						<button class="btn hidden" type="button" id="google-search">What is this? O.o</button>
+					</div>
 				</div>
 			</div>
 			<div class="stats">
-				<div class="dard-drawn statistic-group">
+				<div class="statistic-group card-count">
 					<div class="statistic-name">Card drawn</div>
 					<div class="statistic-value">0</div>
 				</div>
+				<div class="statistic-group last-topic">
+					<div class="statistic-label">Previous topic</div>
+					<div class="statistic-value">-</div>
+				</div>
 				<div class="statistic-group last-category">
-					<div class="statistic-label">Previous word</div>
+					<div class="statistic-label">Previous category</div>
 					<div class="statistic-value">-</div>
 				</div>
 			</div>
 		</div>
 		<div class="categories">
-			<button class="btn category act" type="button">
+			<button class="btn category" type="button" id="pantomime">
 				<i class="fas fa-american-sign-language-interpreting"></i> Pantomime
 			</button>
-			<button class="btn category describe" type="button">
+			<button class="btn category" type="button" id="describe">
 				<i class="fas fa-comment-dots"></i> Describe
 			</button>
-			<button class="btn category spaint" type="button">
+			<button class="btn category" type="button" id="paint">
 				<i class="fas fa-paint-brush"></i> Paint
 			</button>
 		</div>
