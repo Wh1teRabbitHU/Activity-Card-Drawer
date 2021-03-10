@@ -444,6 +444,261 @@ const cards = [
 		category: "pantomime",
 		topic: "Horse riding",
 		point: 5
+	},
+	{
+		category: "paint",
+		topic: "Pistol",
+		point: 5
+	},
+	{
+		category: "paint",
+		topic: "Chainsaw",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Breast",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Radio",
+		point: 6
+	},
+	{
+		category: "paint",
+		topic: "Tennis court",
+		point: 5
+	},
+	{
+		category: "paint",
+		topic: "Skirt",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Megaphone",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Escape route",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Wrestling",
+		point: 5
+	},
+	{
+		category: "paint",
+		topic: "Lightbulb",
+		point: 3
+	},
+	{
+		category: "paint",
+		topic: "Policeman",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Aircraft",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Pocket money",
+		point: 3
+	},
+	{
+		category: "paint",
+		topic: "Rabbit fur",
+		point: 3
+	},
+	{
+		category: "paint",
+		topic: "Fire hydrant",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "Racoon",
+		point: 4
+	},
+	{
+		category: "paint",
+		topic: "District",
+		point: 5
+	},
+	{
+		category: "paint",
+		topic: "Bone saw",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Lazy",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Marathon runner",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Award",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Radio station",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Feast",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Garage",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Rollercoaster",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Vanity",
+		point: 5
+	},
+	{
+		category: "describe",
+		topic: "Sentence",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Wine",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Razor blade",
+		point: 5
+	},
+	{
+		category: "describe",
+		topic: "Decision",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Handbook",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Necklace",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Trap",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Ligther",
+		point: 3
+	},
+	{
+		category: "describe",
+		topic: "Empty",
+		point: 4
+	},
+	{
+		category: "describe",
+		topic: "Bat",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Skydiving",
+		point: 6
+	},
+	{
+		category: "pantomime",
+		topic: "Football",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Christmas tree",
+		point: 5
+	},
+	{
+		category: "pantomime",
+		topic: "Fairy",
+		point: 5
+	},
+	{
+		category: "pantomime",
+		topic: "Bear",
+		point: 5
+	},
+	{
+		category: "pantomime",
+		topic: "Wheel",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Elevator",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Giraffe",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Table",
+		point: 3
+	},
+	{
+		category: "pantomime",
+		topic: "Driver",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Knee",
+		point: 3
+	},
+	{
+		category: "pantomime",
+		topic: "Cup",
+		point: 3
+	},
+	{
+		category: "pantomime",
+		topic: "Breath",
+		point: 4
+	},
+	{
+		category: "pantomime",
+		topic: "Mask",
+		point: 3
+	},
+	{
+		category: "pantomime",
+		topic: "Eye",
+		point: 3
 	}
 ];
 

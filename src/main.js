@@ -6,7 +6,8 @@ const describeCards = cards.filter(({ category }) => category == 'describe');
 const paintCards = cards.filter(({ category }) => category == 'paint');
 
 function pickCard(sourceList) {
-	const index = Math.random(sourceList.length);
+	const index = Math.floor(Math.random() * sourceList.length);
+
 
 	return sourceList.splice(index, 1)[0];
 }
