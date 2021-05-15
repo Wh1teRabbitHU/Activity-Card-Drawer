@@ -8,7 +8,6 @@ const paintCards = cards.filter(({ category }) => category == 'paint');
 function pickCard(sourceList) {
 	const index = Math.floor(Math.random() * sourceList.length);
 
-
 	return sourceList.splice(index, 1)[0];
 }
 
@@ -64,3 +63,8 @@ const lastCategoryValueElement = document.querySelector('.last-category > .stati
 googleSearchElement.addEventListener('click', () => {
 	window.open(`https://www.google.com/search?q=${cardTopicElement.innerHTML}`);
 });
+
+console.log(`Data is loaded: \n` +
+			`${pantomimeCards.length} pantomime cards, ` +
+			`${describeCards.length} describe cards and ` +
+			`${paintCards.length} paint cards are present.`);
